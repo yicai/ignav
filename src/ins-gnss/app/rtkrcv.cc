@@ -773,7 +773,7 @@ static void prstatus(vt_t *vt)
     
     rtksvrlock(&svr);
     rtk=svr.rtk;
-    thread=(int)svr.thread;
+    thread=(int)(size_t)svr.thread;
     cycle=svr.cycle;
     state=svr.state;
     rtkstat=svr.rtk.sol.stat;

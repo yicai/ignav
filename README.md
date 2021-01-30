@@ -1,6 +1,8 @@
 # ignav
 integrated navigation for ins and gnss
 
+  Do some change, now it can be build and run normally in MacOS
+
 # 简介
 IGNAV基于RTKLIB开发的INS/GNSS组合导航算法库，采用C语言编写；IGNAV适用于车载场景，目前正进行INS/GNSS融合视觉信息、激光雷达的算法编写，后续会逐步更新。
 IGNAV主要功能包括：
